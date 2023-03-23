@@ -1,0 +1,30 @@
+[
+  {
+    "id": "b1b04654-efdc-4ea8-b73d-a312ac604b99",
+    "resourceType": "PractitionerRole",
+    "practitioner": {
+      "reference": "Practitioner/fbb685b4-3066-4d95-9a12-5c01c18e9f3a"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "http://opencrvs.org/specs/roles",
+            "code": "LOCAL_REGISTRAR"
+          }
+        ]
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/648e8330-6f1a-45a3-b8b9-85d7e3bc474d"
+      },
+      {
+        "reference": "Location/fee8d9cb-ad8f-4017-b086-b5de61d93265"
+      },
+      {
+        "reference": "Location/9a25ac5b-91b1-42a7-9047-be4db37a704f"
+      }
+    ]
+  }
+]

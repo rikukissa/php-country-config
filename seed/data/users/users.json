@@ -35,5 +35,42 @@
     "identifiers": [],
     "creationDate": 1679580203488.0,
     "auditHistory": []
+  },
+  {
+    "scope": ["register", "performance", "certify", "demo"],
+    "status": "active",
+    "name": [
+      {
+        "given": ["Kennedy"],
+        "use": "en",
+        "family": "Mweene"
+      }
+    ],
+    "username": "k.mweene",
+    "email": "test@test.org",
+    "mobile": "+260933333333",
+    "passwordHash": "53cb884ae5543d304a628c31bd4b3473e8d2d2fe4f0109ddeabd7814633fd79cd391121e83c70de52aacc869b8d3924b779d925df9031a6b981d74b2d5d6cf17",
+    "salt": "b2ab6fe1-6a25-4687-94b2-365cf7c05674",
+    "role": "LOCAL_REGISTRAR",
+    "type": "",
+    "practitionerId": "fbb685b4-3066-4d95-9a12-5c01c18e9f3a",
+    "primaryOfficeId": "9a25ac5b-91b1-42a7-9047-be4db37a704f",
+    "securityQuestionAnswers": [
+      {
+        "questionKey": "BIRTH_TOWN",
+        "answerHash": "53cb884ae5543d304a628c31bd4b3473e8d2d2fe4f0109ddeabd7814633fd79cd391121e83c70de52aacc869b8d3924b779d925df9031a6b981d74b2d5d6cf17"
+      },
+      {
+        "questionKey": "HIGH_SCHOOL",
+        "answerHash": "53cb884ae5543d304a628c31bd4b3473e8d2d2fe4f0109ddeabd7814633fd79cd391121e83c70de52aacc869b8d3924b779d925df9031a6b981d74b2d5d6cf17"
+      },
+      {
+        "questionKey": "FAVORITE_MOVIE",
+        "answerHash": "53cb884ae5543d304a628c31bd4b3473e8d2d2fe4f0109ddeabd7814633fd79cd391121e83c70de52aacc869b8d3924b779d925df9031a6b981d74b2d5d6cf17"
+      }
+    ],
+    "identifiers": [],
+    "creationDate": 1679600880503.0,
+    "auditHistory": []
   }
 ]

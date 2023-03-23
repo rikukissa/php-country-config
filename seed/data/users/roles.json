@@ -1,0 +1,56 @@
+[
+  {
+    "types": [
+      "HEALTHCARE_WORKER",
+      "POLICE_OFFICER",
+      "SOCIAL_WORKER",
+      "LOCAL_LEADER"
+    ],
+    "active": true,
+    "title": "Field Agent",
+    "value": "FIELD_AGENT",
+    "creationDate": 1679600880956.0
+  },
+  {
+    "types": [],
+    "active": true,
+    "title": "Registration Agent",
+    "value": "REGISTRATION_AGENT",
+    "creationDate": 1679600880956.0
+  },
+  {
+    "types": [],
+    "active": true,
+    "title": "Registrar",
+    "value": "LOCAL_REGISTRAR",
+    "creationDate": 1679600880956.0
+  },
+  {
+    "types": [],
+    "active": true,
+    "title": "System admin (local)",
+    "value": "LOCAL_SYSTEM_ADMIN",
+    "creationDate": 1679600880956.0
+  },
+  {
+    "types": [],
+    "active": true,
+    "title": "System admin (national)",
+    "value": "NATIONAL_SYSTEM_ADMIN",
+    "creationDate": 1679600880956.0
+  },
+  {
+    "types": [],
+    "active": true,
+    "title": "Performance Management",
+    "value": "PERFORMANCE_MANAGEMENT",
+    "creationDate": 1679600880957.0
+  },
+  {
+    "types": [],
+    "active": true,
+    "title": "National Registrar",
+    "value": "NATIONAL_REGISTRAR",
+    "creationDate": 1679600880957.0
+  }
+]
