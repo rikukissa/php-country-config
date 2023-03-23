@@ -1,0 +1,35 @@
+[
+  {
+    "id": "9a25ac5b-91b1-42a7-9047-be4db37a704f",
+    "resourceType": "Location",
+    "identifier": [
+      {
+        "system": "http://opencrvs.org/specs/id/internal-id",
+        "value": "CRVS_OFFICE_2OKicPQMNI"
+      }
+    ],
+    "name": "HQ Office",
+    "alias": ["HQ Office"],
+    "status": "active",
+    "mode": "instance",
+    "partOf": {
+      "reference": "Location/fee8d9cb-ad8f-4017-b086-b5de61d93265"
+    },
+    "type": {
+      "coding": [
+        {
+          "system": "http://opencrvs.org/specs/location-type",
+          "code": "CRVS_OFFICE"
+        }
+      ]
+    },
+    "physicalType": {
+      "coding": [
+        {
+          "code": "bu",
+          "display": "Building"
+        }
+      ]
+    }
+  }
+]

@@ -5,9 +5,11 @@ It's purpose is to demonstrate that it is possible for a country to implement th
 
 ## Setup
 
-1. Install dependencies `php composer.phar update`
-2. Run `./start.sh`
-3. The server should now be running in http://localhost:3040/
+1. Install MongoDB driver for PHP `sudo pecl install mongodb`
+2. Install dependencies `php composer.phar update`
+3. Run `./seed.sh` to create users and configuration from `seed/data`
+4. Run `./start.sh`
+5. The server should now be running in http://localhost:3040/
 
 ## What's included
 

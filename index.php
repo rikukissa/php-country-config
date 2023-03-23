@@ -4,7 +4,6 @@ require_once 'fhir.php';
 require __DIR__ . '/vendor/autoload.php';
 $router = new \Bramus\Router\Router();
 
-
 /*
  * Serves the configuration for OpenCRVS Client
  */
@@ -30,8 +29,6 @@ $router->get('/login-config.js', function () {
  */
 
 $router->get('/content/client', function () {
-  header('Access-Control-Allow-Origin: *');
-  header('Access-Control-Allow-Methods: *');
   header('Content-Type: application/json');
   $content = file_get_contents('static/localisation/client.json');
   echo $content;
@@ -42,8 +39,6 @@ $router->get('/content/client', function () {
  */
 
 $router->get('/content/login', function () {
-  header('Access-Control-Allow-Origin: *');
-  header('Access-Control-Allow-Methods: *');
   header('Content-Type: application/json');
   $content = file_get_contents('static/localisation/login.json');
   echo $content;
@@ -100,6 +95,22 @@ function sendRegistrationConfirmation($bundle)
     'response' => $response
   ];
 }
+
+
+/*
+ * Enable CORS
+ */
+$router->options('/.*', function () {
+  header('Access-Control-Allow-Headers: *');
+  header('Access-Control-Allow-Origin: *');
+  header('Access-Control-Allow-Methods: *');
+});
+
+$router->before('GET|OPTIONS', '/.*', function () {
+  header('Access-Control-Allow-Headers: *');
+  header('Access-Control-Allow-Origin: *');
+  header('Access-Control-Allow-Methods: *');
+});
 
 /*
  * Start the server

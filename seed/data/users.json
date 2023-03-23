@@ -1,0 +1,39 @@
+[
+  {
+    "scope": ["sysadmin", "natlsysadmin", "demo"],
+    "status": "active",
+    "name": [
+      {
+        "given": ["Jonathan"],
+        "use": "en",
+        "family": "Campbell"
+      }
+    ],
+    "username": "j.campbell",
+    "email": "test@test.org",
+    "mobile": "+260921111111",
+    "passwordHash": "1f34fd35a2a35d72186b4bff0838be22af25fc0a64a7fd243fd59dfee465f40487d33b108586722895a0d692b2450c34933da2a62f8d64f47d1deba260b30529",
+    "salt": "1f83447e-2fc6-4eb7-95b9-b1be64129558",
+    "role": "NATIONAL_SYSTEM_ADMIN",
+    "practitionerId": "25ad137d-9da8-48d3-814f-a227801f147f",
+    "type": "",
+    "primaryOfficeId": "9a25ac5b-91b1-42a7-9047-be4db37a704f",
+    "securityQuestionAnswers": [
+      {
+        "questionKey": "BIRTH_TOWN",
+        "answerHash": "1f34fd35a2a35d72186b4bff0838be22af25fc0a64a7fd243fd59dfee465f40487d33b108586722895a0d692b2450c34933da2a62f8d64f47d1deba260b30529"
+      },
+      {
+        "questionKey": "HIGH_SCHOOL",
+        "answerHash": "1f34fd35a2a35d72186b4bff0838be22af25fc0a64a7fd243fd59dfee465f40487d33b108586722895a0d692b2450c34933da2a62f8d64f47d1deba260b30529"
+      },
+      {
+        "questionKey": "FAVORITE_MOVIE",
+        "answerHash": "1f34fd35a2a35d72186b4bff0838be22af25fc0a64a7fd243fd59dfee465f40487d33b108586722895a0d692b2450c34933da2a62f8d64f47d1deba260b30529"
+      }
+    ],
+    "identifiers": [],
+    "creationDate": 1679580203488.0,
+    "auditHistory": []
+  }
+]

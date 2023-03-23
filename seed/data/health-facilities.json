@@ -1,0 +1,39 @@
+[
+  {
+    "id": "7c285ca4-e94b-440b-8ca6-92100ffc855b",
+    "meta": {
+      "lastUpdated": "2023-03-23T19:29:13.395Z",
+      "versionId": "6d464658-6826-4e93-a727-3401967bada0"
+    },
+    "resourceType": "Location",
+    "identifier": [
+      {
+        "system": "http://opencrvs.org/specs/id/internal-id",
+        "value": "HEALTH_FACILITY_kg7wXu1ZTPM"
+      }
+    ],
+    "name": "Nkweto Health Post",
+    "alias": ["Nkweto Health Post"],
+    "status": "active",
+    "mode": "instance",
+    "partOf": {
+      "reference": "Location/0a044a6e-19ce-419e-ae3a-5c2352a433fb"
+    },
+    "type": {
+      "coding": [
+        {
+          "system": "http://opencrvs.org/specs/location-type",
+          "code": "HEALTH_FACILITY"
+        }
+      ]
+    },
+    "physicalType": {
+      "coding": [
+        {
+          "code": "bu",
+          "display": "Building"
+        }
+      ]
+    }
+  }
+]

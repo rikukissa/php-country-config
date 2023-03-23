@@ -1,5 +1,5 @@
 {
-  "data": [
+  "languages": [
     {
       "lang": "en",
       "displayName": "English",
@@ -1776,7 +1776,7 @@
         "register.eventInfo.marriage.listItem0": "I am here to complete the marriage registration declaration for you. ",
         "register.eventInfo.marriage.listItem1": "Once I complete the declaration, it will be sent to the registration office for review.",
         "register.eventInfo.marriage.listItem2": "Wait for an SMS to tell you when to visit the office to collect the certificate - Take your ID with you.",
-        "register.eventInfo.event.title": "XXXXX {eventType, select, birth{birth} death{death} other{marriage}} XXX XXXX XXXX XXXX XXX XXX",
+        "register.eventInfo.event.title": "Introduce the {eventType, select, birth{birth} death{death} other{marriage}} registration process to the informant",
         "register.form.informationMissing": "Information missing",
         "register.form.missingFieldsDescription": "The following information will be submitted for validation. Please\n    make sure all required details have been filled in correctly. There\n    are {numberOfErrors} missing mandatory fields in your form:",
         "register.form.modal.areYouReadyToSubmit": "Are you ready to submit?",
